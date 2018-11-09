@@ -9,7 +9,7 @@ apt-get update\
   && curl -fsSL https://get.docker.com/ | sh\
   && mkdir -p ~/netflix-proxy\
   && cd ~/netflix-proxy\
-  && curl -fsSL https://github.com/ab77/netflix-proxy/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
+  && curl -fsSL https://github.com/zhiopi/DisNF/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
   && ./build.sh
 ```
 
